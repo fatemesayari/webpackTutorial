@@ -1,0 +1,60 @@
+{
+  "_from": "@cybernetex/kbn-es-query",
+  "_id": "@cybernetex/kbn-es-query@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-ttQ783OdMJSgxX3TWVKEN8aj1i8/93KpAv1gpAPsB5GyHELJRc6iDTBhzgSXo1Sm7T+hhWNUqzWrXnjZ16d8LQ==",
+  "_location": "/@cybernetex/kbn-es-query",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@cybernetex/kbn-es-query",
+    "name": "@cybernetex/kbn-es-query",
+    "escapedName": "@cybernetex%2fkbn-es-query",
+    "scope": "@cybernetex",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@cybernetex/kbn-es-query/-/kbn-es-query-1.0.2.tgz",
+  "_shasum": "010adafe1af9df56d84786590af0e23f95b8c310",
+  "_spec": "@cybernetex/kbn-es-query",
+  "_where": "D:\\webpack-tutorial",
+  "browser": "target/public/index.js",
+  "bundleDependencies": false,
+  "dependencies": {
+    "@cybernetex/kbn-i18n": "1.0.0",
+    "lodash": "npm:@elastic/lodash@3.10.1-kibana3",
+    "moment-timezone": "^0.5.14"
+  },
+  "deprecated": false,
+  "description": "This module is responsible for generating Elasticsearch queries for Kibana. See explanations below for each of the subdirectories.",
+  "devDependencies": {
+    "@babel/cli": "7.4.4",
+    "@babel/core": "7.4.5",
+    "@babel/plugin-proposal-class-properties": "7.4.4",
+    "@babel/plugin-proposal-object-rest-spread": "7.4.4",
+    "@babel/preset-env": "7.4.5",
+    "@babel/preset-typescript": "7.3.3",
+    "@kbn/babel-preset": "1.0.0",
+    "@kbn/dev-utils": "1.0.0",
+    "@kbn/expect": "1.0.0",
+    "del": "^4.0.0",
+    "getopts": "^2.2.4",
+    "supports-color": "^7.0.0",
+    "typescript": "3.5.3"
+  },
+  "license": "Apache-2.0",
+  "main": "target/server/index.js",
+  "name": "@cybernetex/kbn-es-query",
+  "scripts": {
+    "build": "node scripts/build",
+    "kbn:bootstrap": "node scripts/build --source-maps",
+    "kbn:watch": "node scripts/build --source-maps --watch"
+  },
+  "version": "1.0.2"
+}
